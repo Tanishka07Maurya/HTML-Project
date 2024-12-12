@@ -1,0 +1,89 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #3f1503;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .heading {
+    width: 100%;
+    height: 460px;
+    background-image: linear-gradient(rgba(255, 0, 100, 0.2), rgba(255, 0, 100, 0.2)), url('https://science.nasa.gov/wp-content/uploads/2023/05/soho-prominences-1920x640-1.jpg?w=4096&format=jpeg');
+    background-size: cover;
+  }
+  
+  h1 {
+    color: wheat;
+    font-size: 100px;
+    font-family: hevetica;
+    margin-left: 30px;
+  }
+  
+  .par {
+    width: 450px;
+    text-align: justify;
+    text-indent: 20px;
+    color: wheat;
+    font-size: 25px;
+    font-family: hevetica;
+    margin-left: 30px;
+  }
+  
+  body {
+    margin: 0px;
+    position: relative;
+  }
+  
+  .sun {
+    background-color: black;
+    height: 120px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    font-size:50px;
+    padding: 10px;
+    font-family: arial;
+  }
+  
+  .para {
+    color: #675682;
+    text-align: justify;
+    font-family: Helvetica;
+    padding: 50px;
+    height: 800px;
+    position: absolute;
+  } 
+  
+  .field {
+    background-color: white;
+    opacity: 1;
+    border: ridge;
+    border-color: #def2f1;
+    height: 980px;
+    width: 700px;
+    position: absolute;
+    margin: 10px 345.65px;
+  }
+  
+  .foot{
+    background-color: black;
+    height:200px;
+    width: 100%;
+    /* bottom: 0px; */
+    position: absolute;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #39031e;
+  }
